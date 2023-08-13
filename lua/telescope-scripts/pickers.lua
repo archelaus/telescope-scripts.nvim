@@ -2,7 +2,7 @@ local finders = require('telescope.finders')
 local pickers = require('telescope.pickers')
 local conf = require('telescope.config').values
 local actions = require('telescope.actions')
-local vim_script_actions = require('telescope.actions.vim_script_actions') -- Include your actions file
+local vim_script_actions = require('telescope-scripts.actions') -- Include your actions file
 
 local M = {}
 
