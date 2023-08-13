@@ -1,1 +1,1 @@
-return require("telescope").register_extension
+return require("telescope").register_extension()
